@@ -83,7 +83,7 @@ function setup() {
 
 function draw() {
   //set background color
-  background(180);
+  background(200);
   tBox.collide(ground);
   
   if (keyWentDown("Q") && auto==false){
